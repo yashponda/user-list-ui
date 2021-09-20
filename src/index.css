@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main_div{
+    margin: 33px;
+    margin-left: 55px;
+    margin-right: 32px;
+}
+                                        /* Navbar */
+
+.Navbar{
+    color: indigo;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 22px; 
+    padding-right: 0px; 
+    margin-right: 0px;   
+    border-radius: 28px;
+    height: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.nav1{
+    margin-left: 130px;
+}
+.nav2{
+    margin-left: 44px;
+    padding-right: 0px;
+    padding-left: 134px;
+}
+.nav3{
+    margin-left: 0px;
+    margin-right: 173px;
+    padding-right: 39px;
+}
+
+                                        /* users */
+
+.App_final{
+    color: rgb(21, 21, 44);
+    display: inline-block;
+    justify-content: space-around;
+    margin-left: 191px;
+    margin-right: 191px;                            
+    border-radius: 28px;
+    box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+}
+.users{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 62px;
+    padding-left: 100px;
+    margin-bottom: -33px;
+    margin-top: 0px;
+    margin-left: -74px;
+}
+.avatar_name_email{
+    display: flex;
+    padding-left: 40px;
+    justify-content: space-between;
+}
+.name_email{
+    text-align: left;
+    margin-left: 48px;
+}
+.selection{
+    display: flex;
+    margin-right: 77px;
+}
+.select-field{
+    display: flex;
+    justify-content: space-around;
+    padding: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 31px;
+}
+.owner_status{
+    padding: 5px;
+    margin: 14px;    
+    margin-right: 38px;
+    width: 100px;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.select{
+    padding: 10px;
+    margin: 24px;
+    width: 100px;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #f2efef5c;
+    border: 1px solid #f0e9e9;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.select:hover{
+    background-color: #bdb3b36b;
+}
+.admin_select{
+    border: none;
+    background-color: none;
+    color: rebeccapurple;
+}
+.delete{
+    margin-top: 31px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.lock{
+    margin-top: 19px;
+    margin-left: 20px;
+}
+
+                /*styling for profile component*/
+.profile{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 270px;
+    height: 550px;
+    margin: 50px;
+    margin-left: 588px;
+    margin-right: 517px;
+    margin-top: -122px;
+    padding: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    text-align: center;
+    position: absolute;
+    background-color: white;
+}
+.btn-active-user{
+    background-color: orange;
+    color: papayawhip;
+    font-weight: bolder;
+    border-radius: 4px;
+    width: 130px;
+    height: 40px;
+    border: none;
+}
+.img-avatar{
+    border-radius: 80px;
+}
+.img-avatar:hover + .profile{
+    border: none;
+}
+.save_button{
+    color: white;
+    background-color: #2f9fffde;
+    font-weight: bolder;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    margin-top: 23px;
+    margin-left: 53px;
+    width: 113px;
+    height: 37px;
+    border: none;
+}
+.save_button:hover{
+    color:rgb(44, 30, 30);
+    background-color: #f0e9e9;
+}
+.pagination{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
